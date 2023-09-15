@@ -1,0 +1,17 @@
+1)Display the calender for the month of March 2012
+
+Ans: To display any calender in the terminal window we can use cal command.If we want to display a calender with a corresponding month and year we can represent it using the below syntax
+	cal [month_in_integer] [year_in_integer]
+
+        cal 03 2012 - will display the calender for the March month of 2012 
+
+2)List all the files and directories of the directory /usr/lib on the terminal. Now put the same information in a file named results. Display the contents of the file results now.
+
+Ans: To Display all the files in the directory we can use ls command to show all the directories. In order to show the particular directory using its path we can pass it as
+        ls /user/bin
+
+In order to send the info of directories to a particular file we can use the below command to store the directories in a file name called results
+         ls -l > results
+
+To display the contents of the file we can use cat command to display whatever the comments present in a file
+         cat results

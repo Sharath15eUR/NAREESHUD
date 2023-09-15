@@ -1,0 +1,17 @@
+1) Commands are actually files containing programs, often written in C. How will you find out in which directory does  the file corresponding to the man command resides?
+        
+Ans: we can find out in which directory the file corresponding to the man command resides by using
+    i) By using the Type Command in order to check the file present in the directory 
+	Type man
+
+
+2)How will you find out what is the use of the ps command.
+
+Ans: To find out the use of ps(process status) command we can use 
+    i) By using man command which acts as a System's Manual Pager and also used for documentation
+        
+	man ps
+
+    ii) By using whatis command to show a precise information of a command 
+        
+	whatis ps

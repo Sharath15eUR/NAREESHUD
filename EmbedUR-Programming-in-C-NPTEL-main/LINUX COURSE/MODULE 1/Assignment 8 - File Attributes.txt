@@ -1,0 +1,32 @@
+1. Create a file abc.txt and change the ownership of this file to some other user on your machine, and also change the group to family.
+
+Ans: 
+to create a file we can use cat command and including a '>' symbol  
+       cat > abc.txt
+
+To change the ownership of the particular file to other user we can use chown command to make a change
+       sudo chown user2 abc.txt
+
+To transfer a group from one person to other person we can use chgrp command to make changes to the group name mentioned
+       sudo chgrp family abc.txt
+
+  2. Create a file exercise.txt and make it executable.
+
+Ans:
+To create a file we can use cat command to create a file 
+       cat > exercise.txt
+
+To make the file in executable mode 'x' - represents execute mode and the command chmod is used along with it
+       chmod u+x exercise.txt
+
+3. Create a file test.txt on your desktop and identify its inode number, also create a softlink for test.txt in your home.
+       
+Ans:
+To create a file we need cat command to execute and create a file
+       cat > test.txt
+
+To identify the Inode number we need to use the '-i' option with ls command to determine the number
+       ls -i test.txt
+
+To make a softlink we need to use the '-s' option in accordance with the the ls command and followed by the directory path to be created
+       ln -s test.txt /home/nareesh/final_text.txt

@@ -1,0 +1,25 @@
+1.Open a terminal. Now spawn three shell processes one after another i.e. first spawn one shell, then from the spawned shell, spawn one new shell and so on. Now, how can you see the PID of the current shell ? How can you see the PID of the shell which is the grandparent of the current shell
+
+Ans:
+To create a shell process,type the sh command in the terminal for three times to create the shells one after another 
+   sh
+   sh
+   sh
+
+To check the current Process ID of a shell process need to use the below command to generate the PID
+   echo $$
+
+To check the PID of the grandparent of the current shell '-f' option is used to show all the processes running before with some better attributes
+   ps -f
+
+2.How can you see all the processes (both system & user processes) in your computer? The output can be quite large. How can you view the output as multipage output ? How can you store the output in a file named process_info?
+
+Ans:
+To see all the processes in the computer need to use the '-e' option to check all available processes
+   ps -e
+
+To view the output as multipage we need
+   ps -e | more
+
+To store the output in a file named specified above we need to redirect the stdin so that the contents of a file will be transfeered to the new file
+   ps -e 1 >> process_info 

@@ -1,0 +1,30 @@
+1)Make a directory structure like this in your home directory.
+         
+Ans: To make a directory structure which is given above 
+mkdir command is used to create a new directory 
+	mkdir demodir
+
+cd command is used to change the directory of a particular path
+         cd demodir
+
+using mkdir command we can able to create multiple files in a single instruction
+         mkdir inside_demo also_inside_demo
+
+to create a subdirectory of a given directory we can use '/' to enter inside a specific directory
+         mkdir also_inside_demo/abc also_inside_demo/abc_123
+
+2) Remove the also_inside_demo directory.
+
+Ans: to remove a directory we can use the rmdir command 
+         rmdir abc abc_123
+
+here we need to change the directory 
+         cd demodir
+
+we can use two ways to remove a sub directory by using rmdir command followed by sub directory name
+         rmdir also_inside_demo
+
+              OR
+
+we can use a force delete directory even if there is a presence of sub files in it 
+         rm -rf also_inside_demo
