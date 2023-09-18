@@ -1,4 +1,4 @@
-![image](https://github.com/Sharath15eUR/NAREESHUD/assets/93960137/1b546e52-c9e8-4145-8103-42b84ee1526a)1.Create a new user account and home directory called "Duck"
+1.Create a new user account and home directory called "Duck"
 
 Ans : To create a new user we can use sudo command which able to add any user account
 
