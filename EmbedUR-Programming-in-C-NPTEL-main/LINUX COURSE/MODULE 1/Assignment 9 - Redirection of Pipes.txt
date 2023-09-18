@@ -1,4 +1,4 @@
-  1. Create a file name error_log in your current directory. Suppose you do not have any file named aa11 in your current directory. How can you redirect the error message to the file error_log when we apply the command "wc -l aa11"?  
+1. Create a file name error_log in your current directory. Suppose you do not have any file named aa11 in your current directory. How can you redirect the error message to the file error_log when we apply the command "wc -l aa11"?  
          
 Ans: the wc command is used to check the numbers characters lines and words in a file and in order to redirect the error message for stderr we need to use '2>>' to redirect the message of the given command
 	 wc -l  aa11 2 >> error_log
