@@ -4,6 +4,8 @@ Ans: in order to check the secondary command prompt to set our system we can use
 
 echo $PS2
 
+  
+
 2.How can you change the secondary command prompt from the default to your username?
 
 Ans: LOGNAME coomand stores the username of the current user and also to change the prompt we can use $ symbol from default to the particular user name
