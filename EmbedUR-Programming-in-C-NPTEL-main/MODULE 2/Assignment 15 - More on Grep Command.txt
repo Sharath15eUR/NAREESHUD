@@ -1,0 +1,9 @@
+1) List those entries that are 5 letters long and starts with Y
+
+Ans: 
+
+ubuntu@ubuntu:~$ grep "Y.... " grepdemo.txt
+S009|Yojna chaudhury|electronics|38|Incomplete|1000
+
+
+

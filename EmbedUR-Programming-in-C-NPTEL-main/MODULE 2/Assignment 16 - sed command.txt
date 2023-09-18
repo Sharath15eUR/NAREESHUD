@@ -1,0 +1,33 @@
+1) use the same file for seddemo.txt
+
+Ans cp grepdemo.txt seddemo.txt
+
+2) List those entries that are 5 letters long and starts with Y
+
+Ans:
+
+
+ubuntu@ubuntu:~$ cp grepdemo.txt seddemo.txt
+ubuntu@ubuntu:~$ cat seddemo.txt
+A001|Anirban Roy Choudhury|computers|95|Pass|8000
+A002|Ankit Pilania|electronics|98|Pass|8900
+C003|Ankit Saraf|civil|32|Fail|2000
+S004|Goutam dhar choudhuree|chemical|77|Pass|7700
+A005|Mani Chowdhari|electrical|23|Fail|2000
+X006|Mohan|computers|67|Incomplete|0
+W007|Sandeep|civil|2|Fail|0
+A008|Yogesh|computers|91|Pass|8000
+S009|Yojna chaudhury|electronics|38|Incomplete|1000
+A010|Zubin|Computers|12|Fail|1500
+C011|Mira Nair|electronics|66|Pass|7000
+X012|Meera Banik|civil|76|Pass|6300
+W013|Meeraa Roy|civil 41|Pass|4000
+ubuntu@ubuntu:~$ sed -n '6,12p' seddemo.txt
+X006|Mohan|computers|67|Incomplete|0
+W007|Sandeep|civil|2|Fail|0
+A008|Yogesh|computers|91|Pass|8000
+S009|Yojna chaudhury|electronics|38|Incomplete|1000
+A010|Zubin|Computers|12|Fail|1500
+C011|Mira Nair|electronics|66|Pass|7000
+X012|Meera Banik|civil|76|Pass|6300
+
