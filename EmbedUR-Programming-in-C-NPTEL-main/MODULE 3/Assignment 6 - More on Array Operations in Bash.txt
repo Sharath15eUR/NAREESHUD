@@ -1,0 +1,4 @@
+1) Declare an Array names2 of length 7 and perform following operations-
+   a. Extract three elements starting from index two. 
+   b. Replace third element with 'Debian' and display.
+   c. Append any new name at the end of Array.
