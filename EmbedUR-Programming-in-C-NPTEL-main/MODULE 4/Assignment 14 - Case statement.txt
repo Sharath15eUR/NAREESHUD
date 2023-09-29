@@ -1,3 +1,0 @@
-Case statement
-
-    Write a menu driven program for mathematical calculation a. It should take user inputs a and b b. It should ask for mathematical operator (+, -, / and *). c. Do the calculation d. Print the output
