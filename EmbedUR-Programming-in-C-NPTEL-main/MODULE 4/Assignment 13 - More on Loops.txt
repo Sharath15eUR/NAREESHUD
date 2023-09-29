@@ -1,0 +1,4 @@
+More on Loops
+
+1) Retype nested-for.sh bash script using nested while loop
+2) Save your program with the name: nested-while.sh

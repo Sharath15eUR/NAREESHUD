@@ -1,0 +1,3 @@
+Conditional Loops
+
+1) Find the sum of first n prime numbers.

@@ -1,0 +1,5 @@
+Using File Descriptors
+
+1.Try to append few lines to a file test.txt using file descriptor.
+
+2.Display the content of the file using file descriptor.

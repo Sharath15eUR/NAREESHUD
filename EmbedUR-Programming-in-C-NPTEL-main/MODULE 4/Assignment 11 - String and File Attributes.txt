@@ -1,0 +1,6 @@
+String and File attributes
+
+1) Explore some more attributes
+   -r
+   -x
+   -o
