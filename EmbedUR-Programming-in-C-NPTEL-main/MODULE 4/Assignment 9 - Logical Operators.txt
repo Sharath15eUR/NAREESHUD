@@ -1,2 +1,0 @@
-1) Check whether the file exists and is executable using logical operators.
-   Hint:man test
