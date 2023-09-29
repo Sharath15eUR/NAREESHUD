@@ -1,4 +1,0 @@
-Arithmetic Comparison
-
-1) Write a program to demonstrate the use of not equal to operator.
-   Hint: -ne
