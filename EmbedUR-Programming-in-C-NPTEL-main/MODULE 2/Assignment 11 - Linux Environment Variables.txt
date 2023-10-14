@@ -16,4 +16,4 @@ PS2="$LOGNAME"
 
 Ans : to set a directory path by the user on its own to the existing directory we can use alias command 
 
-alias mv="mv-i"
+alias mv="mv -i"
