@@ -2,7 +2,7 @@
         
 Ans: we can find out in which directory the file corresponding to the man command resides by using
     i) By using the Type Command in order to check the file present in the directory 
-	Type man
+	type man
 
 
 2)How will you find out what is the use of the ps command.
